@@ -1,0 +1,4 @@
+id,lng,lat,coord_sys,provider,panoid,heading,pitch,fov,tag
+beijing_tiananmen,116.397389,39.908722,wgs84,both,,0,0,90,beijing
+shanghai_people_square,121.475190,31.228833,wgs84,baidu,,90,0,90,shanghai
+guangzhou_sample,113.264385,23.129112,wgs84,tencent,,180,0,,guangzhou

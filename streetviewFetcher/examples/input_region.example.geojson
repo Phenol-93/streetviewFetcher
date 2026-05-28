@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sample_point",
+        "tag": "point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.397389, 39.908722]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sample_line",
+        "tag": "line"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [116.397000, 39.908500],
+          [116.398000, 39.908500]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sample_polygon",
+        "tag": "polygon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [116.397000, 39.908000],
+            [116.398000, 39.908000],
+            [116.398000, 39.909000],
+            [116.397000, 39.909000],
+            [116.397000, 39.908000]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+provider: both
+input_type: table
+input_path: examples/input_points.example.csv
+bbox: null
+polygon: null
+spacing_meters: 50.0
+output_dir: output
+metadata_path: output/metadata.jsonl
+coord_sys: wgs84
+headings: [0, 90, 180, 270]
+pitches: [0]
+concurrency: 4
+rate_limit: 2.0
+retry_times: 3
+resume: true
+dry_run: true
+dedupe: true
+log_level: INFO
+
+baidu:
+  ak_env: BAIDU_MAP_AK
+  sn_env: BAIDU_MAP_SN
+  width: 1024
+  height: 512
+  fov: 90
+  coordtype: wgs84ll
+  use_panoid: false
+  timeout: 15.0
+  max_retries: 3
+
+tencent:
+  key_env: TENCENT_MAP_KEY
+  size: 600x480
+  radius: 50
+  use_pano_cache: true
+  skip_no_pano: true
+  timeout: 15.0
+  max_retries: 3
+
+ui:
+  project_dir: .
+  preview_rows: 20
+  max_preview_points: 500
+  enable_map_preview: true
+  theme: light
+  auto_refresh_seconds: 2

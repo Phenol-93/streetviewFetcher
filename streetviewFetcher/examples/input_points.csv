@@ -1,0 +1,2 @@
+id,lng,lat,coord_sys,provider,panoid,heading,pitch,fov,tag
+sample_001,116.397389,39.908722,wgs84,baidu,,0,0,90,beijing
